@@ -1,0 +1,9 @@
+# 소스 목록. type은 src/fetchers/ 에 등록된 이름.
+# google_news: 주제 keywords로 Google News 검색 (키 불필요)
+# rss: 피드를 받아 제목에 주제 keywords가 있는 항목만 사용
+- type: google_news
+  hl: ko
+  gl: KR
+- type: rss
+  name: 연합뉴스 경제
+  url: https://www.yna.co.kr/rss/economy.xml
